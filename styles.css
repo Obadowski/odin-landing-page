@@ -79,6 +79,7 @@ a {
     width: 100px;
     padding: 8px 16px;
     border-radius: 10px;
+    border-color: #1f2937;
 }
 
 .upper > .image {
@@ -167,5 +168,50 @@ a {
 }
 
 /* ===================================
-   Section: Saying
+   Section: Lower Section
+   =================================== */
+.lower {
+    display: flex;
+    margin: 5vh 10vh;
+    background-color: #3882f6;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.lower > .calling {
+    display: flex;
+    flex-direction: column;
+    width: 60vh;
+    padding: 1vh;
+    gap: 0;
+}
+
+.calling > .title {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 2vh;
+    margin-bottom: 0;
+}
+
+.calling > .text {
+    color:#f9faf8;
+    font-size: 16px;
+    font-weight: 100;
+    margin-bottom: 2vh;
+    margin-top: 0;
+}
+
+.lower > .signup {
+    display: flex;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border: 2px solid #f9faf8; 
+    border-radius: 12px;
+    padding: 8px 16px;
+}
+
+/* ===================================
+   Section: Footer
    =================================== */
