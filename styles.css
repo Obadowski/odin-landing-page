@@ -52,6 +52,13 @@ a {
 .upper {
     display: flex;
     flex-direction: row;
+    gap: 2vh;
+    padding: 5vh 2vh;
+    padding-right: 100px;
+}
+
+.card-text, .image {
+    flex: 1;
 }
 
 .card-text {
@@ -60,7 +67,7 @@ a {
     justify-content: center;
     gap: 2vh;
     flex: 1;
-    padding: 5vh 2vh;
+    margin: 5vh 2vh;
 }
 
 .card-text > h1 {
@@ -86,22 +93,19 @@ a {
     border-color: #1f2937;
 }
 
-.upper > .image {
+.image {
     /* background-color: gray; */
     display: flex;
-    flex: 2;
-    justify-content: flex-end;
-    /* align-items: center; */
-    max-height: 50vh;
-    margin: 5vh 2vh;
-    margin-right: 100px;
+    justify-items: center;
+    align-items: center;
 }
 
 .image > img {
-    flex-shrink: 0;
     max-height: 100%;
     max-width: 100%;
-    background-size: contain;
+    height: auto;
+    width: auto;
+    object-fit: contain;
 }
 
 /* ===================================
