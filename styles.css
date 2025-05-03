@@ -2,6 +2,8 @@
 * {
     font-family: "Roboto";
     box-sizing: border-box;
+    /* For debugging */
+    /* outline: 2px solid red;  */
 }
 
 /* Common setting for header, upper and footer */
@@ -101,12 +103,14 @@ a {
 .collection {
     display: flex;
     gap: 80px;
+    align-items: center;
     justify-content: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     flex: 1 1 0%;
     max-width: 150px;
 }
@@ -126,3 +130,42 @@ a {
     color: grey;
     text-align: center;
 }
+
+/* ===================================
+   Section: Saying
+   =================================== */
+.saying {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+.saying > .card {
+    max-width: 100vh;
+}
+
+.card > .main {
+    display: flex;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    max-width: 80vh;
+}
+
+.author {
+    display: flex;
+    color: #1f2937;
+    font-weight: 900;
+    font-size: 24px;
+    align-self: flex-end;
+    max-width: 100vh;
+}
+
+/* ===================================
+   Section: Saying
+   =================================== */
