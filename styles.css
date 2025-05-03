@@ -1,0 +1,43 @@
+/* Defining global atributes */
+* {
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+
+/* Common setting for header, upper and footer */
+.header,
+.upper, .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+}
+
+/* Header definitions */
+
+.header{
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    padding: 16px;
+    flex: 1 1 0%;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+/* There are only links on the header, for now. */
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 16px;
+    justify-content: flex-end;
+}
